@@ -1,0 +1,9 @@
+C:\Users\Ngugi\Documents\Visual Studio 2013\Projects\t_pap\t_pap\bin\Debug\t_pap.exe.config
+C:\Users\Ngugi\Documents\Visual Studio 2013\Projects\t_pap\t_pap\obj\Debug\t_pap.exe
+C:\Users\Ngugi\Documents\Visual Studio 2013\Projects\t_pap\t_pap\obj\Debug\t_pap.pdb
+C:\Users\Ngugi\Documents\Visual Studio 2013\Projects\t_pap\t_pap\bin\Debug\t_pap.exe
+C:\Users\Ngugi\Documents\Visual Studio 2013\Projects\t_pap\t_pap\bin\Debug\t_pap.pdb
+C:\Users\Ngugi\Documents\Visual Studio 2013\Projects\t_pap\t_pap\bin\Debug\NdefLibrary.dll
+C:\Users\Ngugi\Documents\Visual Studio 2013\Projects\t_pap\t_pap\bin\Debug\pcsc-sharp.dll
+C:\Users\Ngugi\Documents\Visual Studio 2013\Projects\t_pap\t_pap\bin\Debug\pcsc-sharp.xml
+C:\Users\Ngugi\Documents\Visual Studio 2013\Projects\t_pap\t_pap\obj\Debug\NPay.csprojResolveAssemblyReference.cache
