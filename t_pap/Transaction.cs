@@ -16,12 +16,12 @@ namespace npay
     public class Transaction
     {
         private string PASSWORD { get; set; }
-        private string TIMESTAMP { get { return "20160510161908"; } }
+        private string TIMESTAMP { get { return "20160510161908"; } } // For testing purposes
         LNMO_portTypeClient client;
         double amount;
         string phone;
         //This is a test paybill number ,  be sure  not to make any payments to it, you will be charged!!!
-        const string MERCHANT_ID = "898998";
+        const string MERCHANT_ID = ""; // Enter your MERCHANT_ID
         string REFERENCE_ID = String.Empty;
         const string PASSKEY = "";//Again test passkey, this key is only provided to allow testing, redistribution of this key is a serious offense, 
         // Read the terms and conditions on this link regarding passkeys  http://online.verypdf.com/u/78076/api/20151215-050804-2472535945.pdf
@@ -74,12 +74,11 @@ namespace npay
             DateTime dt = DateTime.Now;
             string formattedDate = dt.ToString("yyyyMMddHHmmss");
             //For testing we use the provided timestamp 
-            formattedDate = "20160510161908";
             string toHash  = MERCHANT_ID + PASSKEY + formattedDate;
             byte [] hashedBytes = algorithm.ComputeHash(Encoding.UTF8.GetBytes(toHash));
             PASSWORD =  BitConverter.ToString(hashedBytes); 
             // but for testing we use the provided password, this is because I do not want my passkey to be redistributed
-            PASSWORD = "ZmRmZDYwYzIzZDQxZDc5ODYwMTIzYjUxNzNkZDMwMDRjNGRkZTY2ZDQ3ZTI0YjVjODc4ZTExNTNjMDA1YTcwNw==";
+  
             return PASSWORD;
 
         }
