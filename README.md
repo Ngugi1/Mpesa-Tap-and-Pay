@@ -1,6 +1,6 @@
 # NPay
 NFC Payments via MPESA. Tap, enter pin and you are done.
-This project was conceptualized before MPESA 1 tap came to the market. This project and MPESA 1 Tap are similar but with minor differences especially on the hardware used. See a demo on [youtube]()
+This project was conceptualized before MPESA 1 tap came to the market. This project and MPESA 1 Tap are similar but with minor differences especially on the hardware used. See a demo on [youtube](https://www.youtube.com/watch?v=uWe7ykFnXSM&feature=youtu.be)
 
 ## `Drivers and Operating System Requirements`
 To use the solution provided here one needs to do some set up first. Here are the of the items required before the solution can be executed.
