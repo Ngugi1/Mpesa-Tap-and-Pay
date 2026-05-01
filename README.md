@@ -1,4 +1,7 @@
 # NPay
+
+![image](demo.png)
+
 NFC Payments via MPESA Mobile money. Tap, enter pin and you are done.
 This project was conceptualized before MPESA 1 tap came to the market. This project and MPESA 1 Tap are similar but with minor differences especially on the hardware used. See a demo on [youtube](https://www.youtube.com/watch?v=uWe7ykFnXSM&feature=youtu.be)
 
